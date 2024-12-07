@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tycoon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tycoon Game</h1>
+        <div class="stats">
+            <p>Cash: $<span id="cash">1,000</span></p>
+            <p>Materials: <span id="materials">0</span></p>
+            <p>Labor: <span id="labor">0</span></p>
+        </div>
+        <div class="industries">
+            <button id="retail-btn">Retail</button>
+            <button id="manufacturing-btn">Manufacturing</button>
+            <button id="energy-btn">Energy</button>
+        </div>
+        <div class="actions">
+            <button id="produce-btn">Produce</button>
+            <button id="sell-btn">Sell</button>
+            <button id="expand-btn">Expand</button>
+        </div>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
